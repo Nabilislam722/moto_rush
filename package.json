@@ -1,0 +1,12 @@
+{
+  "name": "moto-rush",
+  "private": true,
+  "description": "Moto Rush: a physics bike racing game for the browser",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "validate": "node tools/validate-levels.js"
+  },
+  "devDependencies": {
+    "planck": "1.5.0"
+  }
+}
